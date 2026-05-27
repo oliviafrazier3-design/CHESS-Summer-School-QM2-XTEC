@@ -54,6 +54,8 @@ Talk to beamline scientist before selecting the server
     Example
     [ss@lnx201 ~]$ python -m ipykernel install --user --name=my-python-env --display-name "qm2_BO"
 
+<img src="https://github.com/suchismitasarker/CHESS-ID4B-QM2/blob/main/pictures/jupyterhub1.png?raw=true" width="300" alt="jupyter">
+
 # Creating link in the jupyterhub folder (talk to scientist)
     [ss@lnx313 ~]$ ln -s /nfs/chess/id4baux/2025-3/sarker-0000-a ~/sarker-0000-a
 
