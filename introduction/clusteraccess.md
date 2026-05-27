@@ -9,17 +9,17 @@ Follow the steps below to log in and start an interactive session on the CHESS c
 
 #### ✅ Step 2: Connect via SSH
 - In your terminal, type the following command:
-    - Shellssh <username>@lnx201.classe.cornell.eduShow more lines
+    - `ssh <username>@lnx201.classe.cornell.edu`
     - 👉 Replace <username> with your assigned CLASSE username
 Example:
-  -   Shellssh js1234@lnx201.classe.cornell.eduShow more lines
+  -   `ssh js1234@lnx201.classe.cornell.edu`
   -   📌 You may be prompted to:
   -   Accept the host key (type yes)
   -   Enter your password
 
 #### ✅ Step 3: Start an Interactive Job Session
   - Once logged in, run:
-    Shellqrsh -q interactive.q -l mem_free=200G -pe sge_pe 8``Show more lines
+        `qrsh -q interactive.q -l mem_free=200G -pe sge_pe 8` 
 
 ✅ What This Command Does
 qrsh → starts an interactive job session
@@ -35,6 +35,7 @@ Once ready, your prompt will update
 You are now running on a compute node 🎉
 
 #### ✅ Step 6: Activate your oqn environment
+    - Look at the env_creating.md file    
 
 ✅ Step 5: Start Your Work
 You can now:
