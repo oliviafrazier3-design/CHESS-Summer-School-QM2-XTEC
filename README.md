@@ -33,21 +33,21 @@ This repository contains:
         ├── project1-BO/
         │   ├── README.md
         │   ├── literature/
-               ├── study_materials.md
+        │       ├── study_materials.md
         │   ├── starter_code/
         │   └── data/
         │
         ├── project2-AgenticAI/
         │   ├── README.md
         │   ├── literature/
-               ├── study_materials.md
+        │       ├── study_materials.md
         │   ├── starter_code/
         │   └── data/
         │
         └── project3-DL/
             ├── README.md
             ├── literature/
-               ├── study_materials.md
+            ├── study_materials.md
             ├── starter_code/
             └── data/
 
