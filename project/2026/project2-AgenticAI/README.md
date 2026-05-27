@@ -2,7 +2,7 @@
 
 
 The output file structure from nxrefine should look something like the following:
-Datafile: /nfs/chess/id4baux/2025-2/sarker-0000-a/nxrefine/sample_name/sample_id/RbV3Sb5_14.nxs
+- Datafile: `/nfs/chess/id4baux/2025-2/sarker-0000-a/nxrefine/sample_name/sample_id/RbV3Sb5_14.nxs`
 ```
 nfs
 └── chess
