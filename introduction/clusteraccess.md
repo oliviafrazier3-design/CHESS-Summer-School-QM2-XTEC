@@ -46,6 +46,7 @@ Execute training jobs
 
 
 ⚠️ Important Notes
+```
 [!WARNING]
 Activate your own environment
 
@@ -60,4 +61,4 @@ If your job takes too long to start, consider requesting fewer resources.
 [!WARNING]
 Do not run heavy computations directly on the login node (lnx201).
 
-
+```
