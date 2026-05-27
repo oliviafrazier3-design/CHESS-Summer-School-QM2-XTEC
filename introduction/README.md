@@ -1,4 +1,4 @@
-#CHESS Summer Student Onboarding
+# CHESS Summer Student Onboarding
 Welcome to the CHESS Summer Program! This guide outlines the required steps and resources to help ensure a smooth onboarding process for all students.
 
 ✅ Account Setup
