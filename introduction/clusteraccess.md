@@ -8,19 +8,18 @@ Follow the steps below to log in and start an interactive session on the CHESS c
 
 
 #### ✅ Step 2: Connect via SSH
-In your terminal, type the following command:
-Shellssh <username>@lnx201.classe.cornell.eduShow more lines
-👉 Replace <username> with your assigned CLASSE username
+- In your terminal, type the following command:
+    - Shellssh <username>@lnx201.classe.cornell.eduShow more lines
+    - 👉 Replace <username> with your assigned CLASSE username
 Example:
-Shellssh js1234@lnx201.classe.cornell.eduShow more lines
-📌 You may be prompted to:
-
-Accept the host key (type yes)
-Enter your password
+  -   Shellssh js1234@lnx201.classe.cornell.eduShow more lines
+  -   📌 You may be prompted to:
+  -   Accept the host key (type yes)
+  -   Enter your password
 
 #### ✅ Step 3: Start an Interactive Job Session
-Once logged in, run:
-Shellqrsh -q interactive.q -l mem_free=200G -pe sge_pe 8``Show more lines
+  - Once logged in, run:
+    Shellqrsh -q interactive.q -l mem_free=200G -pe sge_pe 8``Show more lines
 
 ✅ What This Command Does
 qrsh → starts an interactive job session
