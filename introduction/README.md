@@ -14,4 +14,4 @@ Below are the important resouces
 
 
 Extra
--[ ] [Awesome learning resources](https://github.com/lauragift21/awesome-learning-resources#bash)
+- [ ] [Awesome learning resources](https://github.com/lauragift21/awesome-learning-resources#bash)
