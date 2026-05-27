@@ -3,8 +3,8 @@ Follow the steps below to log in and start an interactive session on the CHESS c
 
 #### ✅ Step 1: Open Your Terminal
 
-On Mac/Linux: Open the Terminal application
-On Windows: Use PowerShell, Command Prompt, or tools like Git Bash
+- On Mac/Linux: Open the Terminal application
+- On Windows: Use PowerShell, Command Prompt, or tools like Git Bash
 
 
 #### ✅ Step 2: Connect via SSH
