@@ -29,9 +29,14 @@
 
 
 ## ✅ For jupyternotebook
-# Go to the website : https://jupyterhub.classe.cornell.edu
-
+# Go to the website : 
+    https://jupyterhub.classe.cornell.edu
 Talk to beamline scientist before selecting the server
+```
+<img src="https://github.com/suchismitasarker/CHESS-ID4B-QM2/blob/main/docs/jupyterhub.png?raw=true" width="300" alt="jupyter">
+```
+
+
 
 # Go to the specific folder
 [ss@lnx201 ~]$ cd /nfs/chess/sw/qm2_BO
