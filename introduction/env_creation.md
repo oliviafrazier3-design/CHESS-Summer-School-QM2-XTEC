@@ -24,7 +24,8 @@
         pip install scikit-learn
 
 
-Ask for more memory
+#Ask for more memory
+
 #### ✅ Step 1: Login to the lnx201
     ssh -Y <username>@lnx201.classe.cornell.edu
 #### ✅ Step 2: Start an Interactive Job Session
