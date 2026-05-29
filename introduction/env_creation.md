@@ -3,9 +3,6 @@
 #### ✅ Step 1: Login to the lnx201
     ssh -Y <username>@lnx201.classe.cornell.edu
 
-#### ✅ Step 2: Start an Interactive Job Session
-    qrsh -q interactive.q -l mem_free=200G -pe sge_pe 8 
-
 #### ✅ Step 3: Go to the fife location
         cd /nfs/chess/sw
 
@@ -27,7 +24,16 @@
         pip install scikit-learn
 
 
-
+Ask for more memory
+#### ✅ Step 1: Login to the lnx201
+    ssh -Y <username>@lnx201.classe.cornell.edu
+#### ✅ Step 2: Start an Interactive Job Session
+    qrsh -q interactive.q -l mem_free=200G -pe sge_pe 8 
+#### ✅ Step 3: activate environment
+        source /nfs/chess/sw/<name of your python env>/bin/activate 
+#### ✅ Step 4: go to your folder where your codes are located
+        source /nfs/chess/id4baux/summer_program_2026
+        
 ## ✅ For jupyternotebook
 # Go to the website : 
     https://jupyterhub.classe.cornell.edu
