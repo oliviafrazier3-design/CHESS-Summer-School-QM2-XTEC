@@ -133,7 +133,7 @@ Issued after completing:
 - [ ] Receive CLASSE ID and BeamPASS login  
 
 ### After Arrival
-- [ ] Attend CHESS User Meeting  
+- [ ] [Attend CHESS User Meeting](https://www.chess.cornell.edu/2026-chess-user-meeting)
 - [ ] [Recommended: Attend X-cite Workshop](https://indico.classe.cornell.edu/event/2582/)  
 - [ ] Complete CHESS User Quiz (BeamPASS)
 - [ ] Review orientation materials  
