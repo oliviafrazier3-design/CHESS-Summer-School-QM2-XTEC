@@ -103,7 +103,14 @@ To get started quickly:
         │   ├── starter_code/
         │   └── data/
         │
-        └── project3-DL/
+        ├── project3-DL/
+        │   ├── README.md
+        │   ├── literature/
+        │       ├── study_materials.md
+        │   ├── starter_code/
+        │   └── data/
+        │
+        └── project4-XTEC-raw/
             ├── README.md
             ├── literature/
             ├── study_materials.md
