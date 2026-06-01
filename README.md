@@ -48,18 +48,20 @@ Explore project tracks for the summer school:
   - Literature: study_materials.md
   - Starter Code Available
   - Dataset Provided
+    
+- Project 3 — Deep Learning (DL)
+  - ./project/2026/project3-DL/README.md
+  - Literature & Study Materials
+  - Starter Code
+  - Dataset Included
 
-- Project 3 — XTEC - raw data
+- Project 4 — XTEC - raw data
   - ./project/2026/project4-XTEC-raw/README.md
   - Literature & Study Materials
   - Starter Code
   - Dataset Included
 
-- Project 4 — Deep Learning (DL)
-  - ./project/2026/project3-DL/README.md
-  - Literature & Study Materials
-  - Starter Code
-  - Dataset Included
+
 
 
 
