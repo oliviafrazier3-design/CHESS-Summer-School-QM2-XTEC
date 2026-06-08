@@ -6,7 +6,7 @@
 #### ✅ Step 3: Go to the fife location
         cd /nfs/chess/sw
 
-#### ✅ Step 4: Go to the life location
+#### ✅ Step 4: Go to the life location (only once)
         python3 -m venv <name of your python env> 
    
     Example: 
