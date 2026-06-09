@@ -21,3 +21,7 @@ Extras
 - [ ]  Active Learning Phase Diagram (paper + code)- https://github.com/Maccy-Z/Active_Learning_Phase_Diagram
 - [ ]   phasemapy (XRD phase mapping) https://github.com/ai4mat-zhu/phasemapy
 - [ ]   XRD Auto Analyzer (deep learning) https://github.com/njszym/XRD-AutoAnalyzer
+
+
+Neutron paper - important
+- [ ] On-the-fly autonomous control of neutron diffraction via physics-informed Bayesian active learning, Appl. Phys. Rev. 9, 021408 (2022)
