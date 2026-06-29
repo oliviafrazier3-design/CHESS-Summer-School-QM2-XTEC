@@ -1,0 +1,127 @@
+[xxxx@lnx201 summer_program]$ python read_cbf.py 
+Enhanced CBF Analysis Tool
+Comprehensive analysis with detailed headers and clean parameter extraction
+==========================================================================================
+COMPREHENSIVE CBF FILE ANALYSIS
+==========================================================================================
+File: Ta2NiSeS70_PIL10_074_03650.cbf
+Full path: /nfs/chess/id4b/2025-2/he-4025-d/raw6M/Ta2NiSeS70/S1/180/Ta2NiSeS70_074/Ta2NiSeS70_PIL10_074_03650.cbf
+File size: 5.94 MB
+Analysis time: 2026-06-09 14:32:58
+==========================================================================================
+
+1. DETECTOR AND HARDWARE INFORMATION
+--------------------------------------------------
+Detector: PILATUS3 6M, S/N 60-0127
+Image dimensions: (2527, 2463) pixels
+Total pixels: 6,224,001
+Data type: int32
+Pixel size: 172 × 172 μm (1.72e-04 × 1.72e-04 m)
+Sensor thickness: 0.001 m
+Threshold setting: 15000 eV
+Count cutoff: 998,997 counts
+Gain setting: autog (vrf = 1.000)
+Excluded pixels: 821
+
+2. BEAM AND EXPERIMENTAL SETUP
+--------------------------------------------------
+Wavelength: 0.27552 Å
+Beam energy: 45000.0 eV (45.00 keV)
+Detector distance: 0.5 m
+Detector 2θ: 0.0°
+Beam center: (1224.0, 1445.0) pixels
+Flux: 1.00e+12
+Filter transmission: 1.0
+Polarization: 0.99
+
+3. DATA COLLECTION PARAMETERS
+--------------------------------------------------
+Exposure time: 0.09 s
+Exposure period: 0.1 s
+Start angle: 365.0°
+Angle increment: 0.1°
+Oscillation axis: PHI
+Number of oscillations: 3650
+Collection time: 2025-05-12T08:01:18.746
+Total rotation range: 365.0°
+
+4. GONIOMETER ANGLES
+--------------------------------------------------
+Phi: 364.95°
+Omega: 241596.9°
+Kappa: 0.0°
+Alpha: 0.0°
+
+5. IMAGE STATISTICS AND DATA QUALITY
+--------------------------------------------------
+Intensity range: [-2, 45410]
+Mean intensity: 0.483
+Standard deviation: 54.447
+Dynamic range: 22705.0
+Signal-to-noise ratio: 0.01
+Log dynamic range: 4.36 decades
+
+6. CRYSTALLOGRAPHIC CALCULATIONS
+--------------------------------------------------
+Maximum 2θ: 66.43°
+Maximum resolution: 0.251 Å
+Maximum q-value: 24.99 Å⁻¹
+Beam center to detector edge: 327.4 mm
+Detector coverage: 66.4° (2θ)
+
+7. RAW HEADER INFORMATION
+--------------------------------------------------
+Main CBF header keys:
+  _array_data.header_convention: PILATUS_1.2
+  Content-Type: application/octet-stream;
+  conversions: x-CBF_BYTE_OFFSET
+  Content-Transfer-Encoding: BINARY
+  X-Binary-Size: 6224973
+  X-Binary-ID: 1
+  X-Binary-Element-Type: signed 32-bit integer
+  X-Binary-Element-Byte-Order: LITTLE_ENDIAN
+  Content-MD5: /VoplMRdjPYiPCar3GWQ3g==
+  X-Binary-Number-of-Elements: 6224001
+  X-Binary-Size-Fastest-Dimension: 2463
+  X-Binary-Size-Second-Dimension: 2527
+  X-Binary-Size-Padding: 4095
+
+Pilatus header type: <class 'fabio.cbfimage.PilatusHeader'>
+Pilatus header content:
+  # Detector: PILATUS3 6M S/N 60-0127
+  # Silicon sensor, thickness 0.001 m
+  # Pixel_size 0.000172 m x 0.000172 m
+  # Exposure_time 0.09 s
+  # Exposure_period 0.1 s
+  # Tau = 0.0 s
+  # Count_cutoff 998997 counts
+  # Threshold_setting: 15000.0 eV
+  # Gain_setting: autog vrf (vrf = -0.200)
+  # N_excluded_pixels = 821
+  # Excluded_pixels: badpixel_mask.tif
+  # Flat_field: FF_p60-0127_E30000_T15000_vrf_m0p100.tif
+  # Trim_file: p60-0127_E30000_T15000.bin
+  # Image_path: /ramdisk/he-4025-d/raw6M/Ta2NiSeS70/S1/180//Ta2NiSeS70_074/
+  # Wavelength 0.27552 A
+  # Energy_range 0.0 0.0 eV
+  # Detector_distance 0.5 m
+  # Detector_Voffset 0.0 m
+  # Beam_xy (1224.0, 1445.0) pixels
+  # Flux 1000000000000.0
+  ... (truncated)
+
+9. DATA QUALITY ASSESSMENT
+--------------------------------------------------
+✗ Signal-to-noise ratio: POOR (<2)
+✓ Peak intensity: GOOD (>1000 counts)
+✓ Exposure time: OPTIMAL (0.01-1.0 s)
+
+10. SUMMARY AND RECOMMENDATIONS
+--------------------------------------------------
+• Short wavelength detected - suitable for PDF/total scattering
+• Total data collection time: 328.5 seconds (5.5 minutes)
+✓ Detector utilization: 4.5% of saturation limit
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
