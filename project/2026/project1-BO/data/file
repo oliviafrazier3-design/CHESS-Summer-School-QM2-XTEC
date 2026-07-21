@@ -1,0 +1,71 @@
+
+# Advancing Quantum Materials Discovery: Towards Autonomous Decision Making
+
+Calibration file:
+
+/nfs/chess/id4baux/2025-2/he-4025-d/calibrations/
+- CeO2.cbf
+- CeO2.poni
+- mask.edf
+
+You can get more information from 
+pyFAI- https://pyfai.readthedocs.io/en/stable/
+
+Below is the Raw data : 
+
+
+In this Ta2NiSeS70 folder, you will be able to see lots of temperatures: 
+
+
+/nfs/chess/id4b/2025-2/he-4025-d/raw6M/Ta2NiSeS70/S1/
+
+
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 240
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 17
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 21
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 25
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 30
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 35
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 40
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 50
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 60
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 70
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 90
+0 drwxrwsr-x 5 chess_id4b root 88 May 11  2025 110
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 115
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 117
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 119
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 121
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 123
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 126
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 129
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 140
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 150
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 160
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 170
+0 drwxrwsr-x 5 chess_id4b root 88 May 12  2025 180			
+The single crystal diffraction data were collected under grazing incidence conditions with three sets of θ (0,3,-3 ̋) and χ (90 ̋, 88 ̋, 97 ̋) rotations while continuously rotating φ through 0 ̋ to 360 ̋ in 0.1 ̋ steps with a 0.1-second counting time per image using a large area detector Pilatus 6M. Therefore, each temperature folder has 3 subfolders. 
+Example
+/nfs/chess/id4b/2025-2/he-4025-d/raw6M/Ta2NiSeS70/S1/17
+
+
+folders
+Ta2NiSeS70_006  Ta2NiSeS70_007  Ta2NiSeS70_008
+
+
+Images
+Ta2NiSeS70_PIL10_006_00000.cbf  
+Ta2NiSeS70_PIL10_006_00001.cbf  
+Ta2NiSeS70_PIL10_006_00002.cbf  
+Ta2NiSeS70_PIL10_006_00003.cbf  
+Ta2NiSeS70_PIL10_006_00004.cbf  
+….
+Ta2NiSeS70_PIL10_006_03650.cbf
+
+
+Take the first folder Ta2NiSeS70_006 and first 20 images (from Ta2NiSeS70_006  Ta2NiSeS70_007  Ta2NiSeS70_008). Next, took second temperature
+/nfs/chess/id4b/2025-2/he-4025-d/raw6M/Ta2NiSeS70/S1/21
+Subfolders
+Ta2NiSeS70_009  Ta2NiSeS70_010  Ta2NiSeS70_011
+Choose 20 images and so on 
+
