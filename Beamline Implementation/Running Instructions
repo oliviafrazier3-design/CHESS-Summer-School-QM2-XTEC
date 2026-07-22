@@ -25,4 +25,4 @@
 After the sweep, open the trajectory plots in each
 `{MATERIAL}_sweep_*_d/runs/d_k*/` folder, and read the judge's pick from
 `recommendation.json`
-# Something to remeber: Sweep + judge are not giving results that match with the expert answer 
+### Something to remeber: Sweep + judge are not giving results that match with the expert answer 
