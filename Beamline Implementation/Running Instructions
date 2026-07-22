@@ -1,0 +1,28 @@
+## How to run
+
+1. Open the notebook and go to the CONFIG cell at the top
+2. Edit these for your dataset:
+   - `BASE` — path to the raw per-temperature data folders
+   - `MATERIAL` — sample name (used to name outputs and find axis files)
+   - `STEP` — downsampling factor (higher = smaller/faster; e.g. 4 or 8 for large cubes)
+   - `OUTPUT_ROOT` — where the stacked file and sweep results are written
+   - `QL_LO/HI, QK_LO/HI, QH_LO/HI` — the reciprocal-space region to analyze
+3. Run cells top to bottom
+
+## What each step does
+
+- Step 1–4: Discovers temperature folders, downsamples each volume (if you want it to),
+  and combines them into one `{MATERIAL}_stacked.nxs` file
+- Step 5: Looks at the Q-ranges, then loads the slice
+- Step 6–8: Removes background, then shows the log-intensity
+  distribution (with the auto cutoff) and a Q-space map
+- Step 9: Sweep + judge runs XTEC-d clustering across k = 2–8 for both mean
+  and z-score rescaling, scores each, and saves results to
+  `{MATERIAL}/{MATERIAL}_sweep_{rescale}_d/`
+
+## Checking the results
+
+After the sweep, open the trajectory plots in each
+`{MATERIAL}_sweep_*_d/runs/d_k*/` folder, and read the judge's pick from
+`recommendation.json`
+# Something to remeber: Sweep + judge are not giving results that match with the expert answer 
